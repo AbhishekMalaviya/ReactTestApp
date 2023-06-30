@@ -21,6 +21,9 @@ const NavBar = () => {
           <MenuLink to="/counter" activeStyle>
             Counter
           </MenuLink>
+          <MenuLink to="/redux" activeStyle>
+            Redux
+          </MenuLink>
         </Menu>
       </PrimaryNav>
     </>
