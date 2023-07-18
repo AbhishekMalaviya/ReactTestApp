@@ -8,6 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Counter from './components/Counter';
 import ReduxCounter from './features/counter/ReduxCounter';
+import React from 'react';
 
 
 function App() {

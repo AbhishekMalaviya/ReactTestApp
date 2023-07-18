@@ -1,8 +1,10 @@
 import axios from "axios"
+import React from "react";
 
 const response = await axios.get(
   "https://jsonplaceholder.typicode.com/posts?_limit=10"
-);
+);  
+
 
 function About(props) {
   const pStyle = { color: 'green', fontSize: '11px', textAlign: 'justify' }
